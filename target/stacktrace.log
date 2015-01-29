@@ -1,0 +1,2082 @@
+2014-12-09 21:36:05,932 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:36:05,936 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:36:05,936 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:36:05,936 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:49:13,283 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:49:13,284 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:49:13,284 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-09 21:49:13,284 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@52b79d68] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-11 21:26:11,628 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@2b28b29c] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-11 21:26:11,632 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@2b28b29c] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-11 21:26:11,633 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@2b28b29c] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-11 21:26:11,633 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@2b28b29c] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 19:40:55,306 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 19:40:55,322 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 19:40:55,323 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 19:40:55,323 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:48:10,947 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:48:10,953 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:48:10,953 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:48:10,953 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:48:15,590 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-16 22:48:15,591 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-16 22:48:15,591 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-16 22:48:15,591 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-16 22:56:47,213 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:56:47,214 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:56:47,214 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:56:47,214 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-16 22:56:52,088 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-16 22:56:52,089 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-16 22:56:52,089 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-16 22:56:52,089 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-18 19:52:48,189 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:52:48,191 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:52:48,192 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:52:48,192 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:54:27,303 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:54:27,303 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:54:27,303 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-18 19:54:27,303 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:12:22,531 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:12:22,535 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:12:22,535 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:12:22,535 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:12:27,824 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-20 13:12:27,825 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 13:12:27,825 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 13:12:27,825 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 13:37:37,221 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,221 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,221 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,221 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,240 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,240 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,240 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:37,240 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 13:37:41,993 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-20 13:37:41,994 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 13:37:41,995 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 13:37:41,995 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:02:40,827 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-20 20:02:40,827 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:02:40,827 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:02:40,828 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:02:41,045 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:02:41,045 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:02:41,045 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:02:41,046 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:05,847 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-20 20:06:05,847 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:06:05,847 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:06:05,847 [Thread-14] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:06:06,903 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:06,904 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:06,904 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:06,904 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:39,977 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:39,978 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:39,978 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:06:39,978 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2014-12-20 20:30:01,667 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:57)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:168)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at CacheGrailsPlugin$_closure4.call(CacheGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-12-20 20:30:01,672 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:30:01,674 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2014-12-20 20:30:01,674 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
+	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
+2015-01-27 17:18:09,463 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 17:18:09,467 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 17:18:09,468 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 17:18:09,468 [FileSystemWatcher: files=#77 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:06:14,635 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:06:14,640 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:06:14,645 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:06:14,645 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:07,682 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:07,688 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:07,688 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:07,688 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:35,292 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:35,292 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:35,293 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:35,293 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:47,485 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:47,486 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:47,486 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:07:47,486 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:08:29,370 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:08:29,370 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:08:29,370 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 20:08:29,370 [FileSystemWatcher: files=#107 cl=java.net.URLClassLoader@7ce635e6] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 21:05:33,132 [Thread-15] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-27 21:05:33,148 [Thread-15] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-27 21:05:33,149 [Thread-15] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-27 21:05:33,150 [Thread-15] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-27 21:22:11,060 [FileSystemWatcher: files=#109 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_closure5.doCall(GroovyPagesGrailsPlugin.groovy:342)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 21:22:11,061 [FileSystemWatcher: files=#109 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 21:22:11,061 [FileSystemWatcher: files=#109 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-27 21:22:11,062 [FileSystemWatcher: files=#109 cl=java.net.URLClassLoader@6ddccf19] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 18:37:24,759 [FileSystemWatcher: files=#106 cl=java.net.URLClassLoader@3ba0aaa8] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3202)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3154)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3097)
+	at groovy.lang.MetaClassImpl.getMethodWithCachingInternal(MetaClassImpl.java:1325)
+	at groovy.lang.MetaClassImpl.createPogoCallSite(MetaClassImpl.java:3358)
+	at groovy.lang.ExpandoMetaClass.createPogoCallSite(ExpandoMetaClass.java:1299)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createPogoSite(CallSiteArray.java:147)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:161)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.plugins.DomainClassGrailsPlugin$_closure3.doCall(DomainClassGrailsPlugin.groovy:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 18:37:24,767 [FileSystemWatcher: files=#106 cl=java.net.URLClassLoader@3ba0aaa8] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 18:37:24,767 [FileSystemWatcher: files=#106 cl=java.net.URLClassLoader@3ba0aaa8] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 18:37:24,767 [FileSystemWatcher: files=#106 cl=java.net.URLClassLoader@3ba0aaa8] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method grails.spring.BeanBuilder#registerBeans.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[interface org.codehaus.groovy.grails.commons.spring.RuntimeSpringConfiguration]
+	[interface org.springframework.beans.factory.support.BeanDefinitionRegistry]
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:12:55,541 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-28 21:12:55,545 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:12:55,545 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:12:55,545 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:14:19,091 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-28 21:14:19,091 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:14:19,092 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:14:19,092 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:15:11,815 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-28 21:15:11,816 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:15:11,816 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:15:11,816 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:15:12,613 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:15:12,614 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:15:12,615 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:15:12,615 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:50:35,102 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-28 21:50:35,103 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:50:35,103 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:50:35,103 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:50:36,158 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:246)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:107)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1794)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:417)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:50:36,159 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:50:36,159 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:50:36,159 [FileSystemWatcher: files=#76 cl=java.net.URLClassLoader@1e0a21ac] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at java.lang.Thread.run(Thread.java:744)
+2015-01-28 21:50:40,267 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.WatchServiceDirectoryWatcher.run(WatchServiceDirectoryWatcher.java:95)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:154)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2015-01-28 21:50:40,269 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:50:40,269 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2015-01-28 21:50:40,269 [Thread-13] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)

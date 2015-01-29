@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/grailsFields-inplacePlugin.iml" filepath="$PROJECT_DIR$/grailsFields-inplacePlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-grails-fields.iml" filepath="$PROJECT_DIR$/test-grails-fields.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-grails-fields-grailsPlugins.iml" filepath="$PROJECT_DIR$/test-grails-fields-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
